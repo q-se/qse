@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Q-SE 2021</title>
+
+    <!-- favicon -->
+    <link href="favicon.png" rel=icon>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <!-- Navigation -->
+        <nav class="navbar main-menu sticky-nav" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+						<img src="img/logo.png" width="300px" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"><a href="#page-top"></a></li>
+                        <!-- <li><a class="page-scroll" href="#section-intro">About</a></li> -->
+                        <li><a class="page-scroll" href="#section-program">Program</a></li>
+                        <li><a class="page-scroll" href="#section-call">Call for Papers</a></li>
+                        <li><a class="page-scroll" href="#section-organization">Organization</a></li>
+                        <li><a class="page-scroll" href="#section-Idates">Important Dates</a></li>
+                        <li><a class="page-scroll" href="#section-venue">Venue</a></li>
+                        <li><a class="page-scroll" href="#section-registration">Registration</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- .nav -->
+
+    </header>
+
+    <div class="jumbotron text-center">
+        <div class="content">
+            <div class="event-date"><span class='intro'>June 1- June 2, 2021 Virtual</span></div>
+            <h1 class="overlay">Q-SE 2021</h1>
+            <p class="lead"><span class='intro'>Second International Workshop on Quantum Software Engineering (Q-SE 2021)</span></p>
+            <p class="lead"><span class='intro'> co-located with <a href="https://conf.researchr.org/home/icse-2021">ICSE 2021 </span></a></p>
+        </div>
+    </div>
+    <!-- .Jumbotron-->
+
+
+    <section id="section-intro" class="section-wrapper about-event">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">
+                        <span class='underline-blue'> Quantum computers</span> promise to solve unthinkably complex problems that traditional computers could ever solve.The evidence of such quantum supremacy over traditional computers has started to emerge as it can be seen by Google’s quantum computer recently performing a complex computation that would take 10,000 years for the best supercomputer available today. High-level languages to write quantum programs have also started to appear, e.g., Microsoft’s Q# and IBM’s Qiskit. Thus, we believe that this is the right time to build a community for quantum software engineering (QSE) focusing on devising methods, approaches, and processes to develop software for quantum programs efficiently and to ensure their correctness. The Q-SE workshop will provide a platform for researchers and practitioners to discuss the challenges in developing software quantum software in high-level quantum languages, developing novel solutions to build correct methods for developing testing quantum programs, executing quantum software, developing best practices, and creating a research roadmap of quantum software engineering.   
+                    </p>
+                    <p class="lead">
+                    The key goals of the workshop are: 1) Provide practical and generalizable insights on how to apply and extend existing approaches to quantum software development or develop entirely new approaches, 2) Devise ways in which industry and academia can collaborate to provide further knowledge on developing quantum software, 3) Provide academia with feedback on which skills and abilities are required in quantum software development and where to concentrate on the education of students, 4) Demonstrate to academia new as well as existing practical challenges in the field of quantum software engineering, 5) Communicate the latest research findings to practitioners and discuss ways to adopt them for industrial products, services, and processes.
+                  </p>
+                    <p class="lead">
+                    The key outcome of the workshop will be a research roadmap for Quantum Software Engineering.
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .about-event -->
+
+    <section id="section-program" class="section-wrapper section-ajenda gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Program</h1>
+                    </div>
+                </div>
+            </div>
+	  
+           <br> <b>Keynotes: </b></br>		 
+	   <br> <b>Keynote 1: Learning to measure: a new approach to variational quantum algorithms for near-term quantum computers by Sabrina Maniscalco, University of Helsinki, and Aalto University</b></by>	
+	   <br> <b> Abstract: </b>  Variational quantum algorithms stand as the most promising approaches towards practical applications of near-term quantum computers [1,2]. However, these methodologies usually require a large number of measurements, which represents an important roadblock for future real-world applications. We introduce a novel approach to tackle this problem: a variational measurement scheme. We present an algorithm that optimises informationally complete POVMs on-the-fly in order to minimise the statistical fluctuations in the estimation of relevant cost functions. We use it in combination with the Variational Quantum Eigensolver to calculate ground-state energies of molecular Hamiltonians and show that it is competitive with state-of-the-art measurement reduction approaches. Our computational experiments further suggest a measurement scaling exponent below 2. We also highlight the potential of the informational completeness of the measurement outcomes by reusing the ground-state energy estimation data to perform reduced state tomography with high fidelity on the XX model spin chain [3].</br>	
+	   
+	   <br> [1] Jarrod R McClean, Jonathan Romero, Ryan Babbush, and Alan Aspuru-Guzik,“The theory of variational hybrid quantum-classical algorithms” New J. Phys. 18 023023 (2016). </br>
+           <br> [2]  Abhinav Kandala, Antonio Mezzacapo, Kristan Temme, Maika  Takita,  Markus  Brink,  Jerry  M.  Chow, and Jay M. Gambetta, “Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets,” Nature 549, 242, (2017). </br>
+            <br> [3] Guillermo García-Pérez, Matteo A. C. Rossi, Boris Sokolov, Elsi-Mari Borrelli, and Sabrina Maniscalco “Pairwise tomography networks for many-body quantum systems" Phys. Rev. Research 2, 023393 (2020). </br>
+	  <br> <b> Biography: </b> Sabrina Maniscalco is the Professor of Quantum Information and Logic at the University of Helsinki, Finland, former Chair of Theoretical Physics at the University of Turku and an Adjunct Professor at Aalto University, Finland. She is the Vice Director of the Finnish Centre of Excellence for Quantum Technologies & serves on advisory and scientific boards of several institutions. Sabrina obtained her PhD at the University of Palermo (Italy) in 2004 and has held academic research positions around the world, in Sofia (Bulgaria), Durban (South Africa), Turku (Finland) and Edinburgh (UK). She returned to Finland in 2014 to lead the Theoretical Physics Laboratory in Turku.
+
+Sabrina has coordinated several international and interdisciplinary projects, and is recognised as one of the leading experts in Quantum Technologies. She loves inventing novel approaches to doing research, learning, and innovating, and believes in the power of "engineering synchronicity" and in the joys of good food, sauna, road-trips, and outdoor living and interestingly she is also an entrepreneur; as the CEO of Algorithmiq Oy, she is pioneering quantum algorithms to tackle complex problems in life sciences. Her passion for outreach led her to co-create QPlayLearn, www.qplaylearn.com, an online platform to teach quantum science and technologies to everyone.</b> </br> 	
+	
+	<br> <b>Keynote 2:  Verification of Quantum Programs by Mingsheng Ying,  University of Technology Sydney, Australia </b> </br>
+	<br> <b> Abstract: </b> In this talk, I'll mainly discuss the program logic approach to verification of quantum programs, including quantum Hoare logic, invariant generation and termination analysis for quantum programs. I'll also briefly discuss potential applications of model checking for verification and debugging of quantum programs. Some problems for future research will be proposed at the end of the paper.  </br>
+	<br> <b>Biography: </b> Mingsheng Ying is a Distinguished Professor and Research Director of the Center for Quantum Software and Inform- ation at the University of Technology Sydney, Australia. He is also Deputy Director for Research at the Institute of Software at the Chinese Academy of Sciences, and holds the Cheung Kong Chair Professorship at Tsinghua University, China. His research interests include quantum computation, theory of programming languages, and logics in AI.
+He has published books: Model Checking Quantum Systems: Principles and Algorithms (2021) (with Yuan Feng), Foundations of Quantum Programming (2016) and Topology in Process Calculus: Approximate Correct- ness and Infinite Evolution of Concurrent Programs (2001). He received a China National Science Award in Natural Science (2008). He has served on the editorial board of several publications including Artificial Intelligence Journal. He is currently (Co)Editor-in-Chief of ACM Transactions on Quantum Computing.</br>
+
+
+
+<br> <b>The tentative program is below. Times are in CEST: </b></br>
+	   <br> <b> June 1, 2021 </b> </br>
+
+<br> <b>1400-1415: Welcome by Rui Abreu, Shaukat Ali, Tao Yue </b></br>
+
+<br> <b>1415-1515: Keynote by Sabrina Maniscalco; Session Chair: Shaukat Ali </b></br>
+
+<br> <b> 1520-1650: Modeling; Session Chair: Tao Yue </b></br>
+<br> Exman and A.T. Shmilovich, Quantum Software Models: The Density Matrix for Classical & Quantum Software Systems Design</br>
+<br> R. Pérez-Castillo, L. Jiménez-Navajas and M. Piattini, Modelling Quantum Circuits with UML</br>
+<br> F. Gemeinhardt, A. Garmendia and M. Wimmer, Towards Model-Driven Quantum Software Engineering</br>
+
+
+<br> <b>1700-1800: Search; Session Chair: Rui Abreu </b></br>
+<br> P. Olivieri, M. Askarpour and E. Di Nitto, Experimenting with Discrete Time Quantum Walk;</br>
+<br> A. Sequeira, L.P. Santos and L.S. Barbosa, Generalised Quantum Tree Search.</br>
+
+
+<br> <b> June 2, 2021 </b></br>
+
+<br> <b>1300-1400: Keynote by Mingsheng Ying; Session Chair: Tao Yue </b></br>
+
+<br> <b>1415-1545: Quality; Session Chair: Rui Abreu </b></br>
+
+<br> P. Zhao, J. Zhao and L. Ma, Identifying Bug Patterns in Quantum Programs;</br>
+<br> J. Zhao, Some Size and Structure Metrics for Quantum Software;</br>
+<br> J. Campos and A. Souto, QBugs: A Collection of Reproducible Bugs in Quantum Algorithms and a Supporting Infrastructure to Enable Controlled Quantum Software Testing and Debugging Experiments.</br>
+
+<br> <b>1545 to 1700: Open Discussion </b></br>
+
+	    
+	    
+	    </section>
+
+
+    <section id="section-call" class="section-wrapper pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Call for Papers</h1>
+                    </div>
+                      <h2>Topics of Interest</h2>
+                      <p class="lead">
+                       Quantum software engineering including but not limited to:<br>
+                       •	Paradigms for developing quantum software <br>
+                       •	Quantum software design <br>
+                       •	Quantum software testing <br>
+                       •	Quantum software verification <br>
+                       •	Quantum software coding practices <br>
+                       •	Quantum software reuse <br>
+                       •	Quantum software experimentations <br>
+                       •	Quantum software execution <br>
+                       •	Industrial applications <br>
+                       •	Empirical evaluations <br>
+
+
+                        </p>
+
+                         <h2>Paper Submission</h2>
+
+                         <p class="lead">
+                            We invite submission of papers of the following types:<br>
+                            
+                            - <b> Regular papers (6 pages): Experience reports, research methods, longer challenge papers.<br>
+                            - <b> Position paper (3 pages): Describing a well-argued position in any area of quantum software engineering.<br>
+                            - <b> Fast Abstracts (2 pages): Work in progress, challenges <br>
+                            
+
+                        <br>
+                            <b>Submission Link: <a href="https://easychair.org/conferences/?conf=qse2021">Q-SE 2021</a></b>
+
+                        <br> <br>
+
+                            ICSE 2021 workshop proceedings will be prepared by IEEE CPS and published by ACM. Workshop papers must follow the ACM formatting instructions (https://www.acm.org/publications/proceedings-template).
+
+                        <br> <br>
+                        
+                            <b>The workshop will have the best paper award, which will be announced and bestowed at the workshop closing session.</b>
+
+                        </p>
+
+                </div>
+            </div>
+    </section>
+    <!-- .pricing-section -->
+
+    <section id="section-organization" class="section-wrapper team gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Organization</h1>
+                    </div>
+
+                     <h2>Program Chairs</h2>
+
+                    <p class="lead">
+                        <a href="https://www.simula.no/people/shaukat/">Shaukat Ali</a>, Simula Research Laboratory, Norway<br>
+                        <a href="http://www.ruimaranhao.com/">Rui Abreu</a>, Instituto Superior Técnico (IST) of the University of Lisbon, Portugal<br>
+                        <a href="https://www.simula.no/people/tao">Tao Yue</a>, Nanjing University of Aeronautics and Aerospace China and Simula Research Laboratory Norway <br>
+                  
+                        
+
+                    </p>
+
+                    <h2>Program Committee</h2>
+
+                     <p class="lead">
+			Paolo, Arcaini, National Institute of Informatics	<br>
+Luís Soares Barbosa, University of Minho <br>	
+Lei Zhang, Ryerson University <br>	
+Shaohan	Hu, IBM	<br>
+Jianjun	Zhao, Kyushu University <br>
+Carmelo R. Cartiere, NEXTSENSE (SRL) <br>
+Wille	Robert, Johannes Kepler University Linz <br>
+Sebastian Feldt, Delft University of Technology <br>
+Frank	Leymann, University of Stuttgart <br>	
+David	White, The University of Sheffield <br>
+Goeran	Wendin, Chalmers University of Technology <br>
+Jose	Oliveira, University of Minho <br>
+Andriy	Miranskyy, Department of Computer Science, Ryerson University <br>
+Mario	Piattini, University of Castilla-La Mancha <br>
+Joao	Fernandes, University of Coimbra <br>
+Xiaodi	Wu, University of Maryland <br>
+Wolfgang, Mauerer, OTH Regensburg <br>
+Hausi A	Muller, University of Victoria	<br>
+			     
+			    Manuel Wimmer, JKU Linz
+                     	
+                        </p>
+
+                </div>
+            </div>
+           
+                <!-- /.col-sm-6 -->
+
+
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- .team -->
+
+    
+    <section id="section-Idates" class="section-wrapper client-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Important Dates</h1>
+                    </div>
+
+                         <h2>Paper submission:</h2><h3>January 21, 2021 AoE</h3>
+                         <h2>Notification date:</h2><h3>February 22, 2021 AoE </h3>
+                         <h2>Camera Ready Deadline:<h3>March 12, 2021 AoE </h3>
+                </div>
+            </div>
+            
+           
+        </div>
+        <!--end of .container -->
+    </section>
+    <!-- .client-logo -->
+
+
+    <section id="section-venue" class="section-wrapper gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Venue</h1>
+                    </div>
+					<p align="center">As part of <a href="https://conf.researchr.org/home/icse-2021">ICSE 2021</a>, the workshop will be held virtually</p>
+                </div>
+            </div>
+            <!-- /.row-->
+
+          <!--   <div class="row">
+                <div class="col-md-12">
+                    <div id="googleMap"></div>
+                </div>
+            </div>-->
+            <!-- .row-->
+
+        </div>
+    </section>
+
+
+     <section id="section-registration" class="section-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Registration</h1>
+                    </div>
+					
+					<p align="center">Authors and participants must register through the main conference website: <a href="https://conf.researchr.org/home/icse-2021">Registration for ICSE 2021</a></p>
+                </div>
+            </div>
+            <!-- /.row-->
+
+          <!--   <div class="row">
+                <div class="col-md-12">
+                    <div id="googleMap"></div>
+                </div>
+            </div>-->
+            <!-- .row-->
+
+        </div>
+    </section>
+
+
+    <!-- contact-section -->
+
+
+    <footer class="footer">
+        <div class="copyright-section">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="copytext text-center">&copy; Q-SE2021. All rights reserved | Created by: <a href="https://www.ruimaranhao.com">Rui Abreu</a></div>
+                </div>
+            </div>
+            <!-- .container -->
+        </div>
+        <!-- .copyright-section -->
+    </footer>
+    <!-- .footer -->
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
